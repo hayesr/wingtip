@@ -1,0 +1,20 @@
+
+@import 'wingtip';
+
+.show-grid{
+  .row{
+    margin-bottom: 1em;
+    [class*="span"]{
+      font-family: $bodyFontFamily;
+      text-align: center;
+      background-color: #eee; 
+      border-right: 1px solid #ddd;
+      border-left: 1px solid #ddd;
+      padding: 2em 0;
+    }
+  }
+}
+
+.sidebar{
+  border-left: 1px solid #eee;
+}

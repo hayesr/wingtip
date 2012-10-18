@@ -1,0 +1,8 @@
+= Wingtip
+
+The best of Zurb Foundation and Twitter Bootstrap together in one bodacious front end framework.
+
+This project is just getting started, but you can clone it and view the test/dummy app to see where it's at.
+
+This project rocks and uses MIT-LICENSE.
+
