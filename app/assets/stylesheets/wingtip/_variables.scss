@@ -1,3 +1,85 @@
+$white:     #fcfcfc !default;
+$grey1:     #e6e5e3 !default;
+$grey2:     #dedddc !default;
+$grey3:     #d7d8d9 !default;
+$grey4:     #555    !default;
+$grey5:     #3d3d3d !default;
+$grey6:     #2e2e2e !default;
+$black:     #19191a !default;
+$teal1:     #4b8b92 !default;
+$teal2:     #356c72 !default;
+$green1:    #649647 !default;
+$green2:    #507838 !default;
+$red1:      #d04232 !default;
+$red2:      #c43626 !default;
+$blue1:     #56acd6 !default;
+$blue2:     #4993b8 !default;
+$purple1:   #616882 !default;
+$purple2:   #4f5467 !default;
+$yellow1:   #ffdc50 !default;
+$yellow2:   #e3c960 !default;
+
+// Grays
+// -------------------------
+//$black:                 #000    !default;
+$grayDarker:            $grey6;
+$grayDark:              $grey5;
+$gray:                  $grey4;
+$grayLight:             $grey3;
+$grayLighter:           $grey2;
+//$white:                 #fcfcfc !default;
+
+
+// Accent colors bs _mixins 21
+// -------------------------
+$blue:                  $blue1;
+$blueDark:              $blue2;
+$green:                 $green1;
+$red:                   $red1;
+$yellow:                $yellow1;
+$orange:                #f89406 !default;
+$pink:                  #c3325f !default;
+$purple:                $purple1;
+
+// Scaffolding
+// -------------------------
+$bodyBackground:        $white !default;
+$textColor:             $grayDark !default;
+
+
+// Links
+// -------------------------
+$linkColor:             $blue1;
+$linkColorHover:        $blue2;
+
+
+
+// Buttons
+// -------------------------
+$btnBackground:                     $white !default;
+$btnBackgroundHighlight:            darken($white, 5%) !default;
+$btnBorder:                         #bbb !default;
+
+$btnPrimaryBackground:              $linkColor !default;
+$btnPrimaryBackgroundHighlight:     adjust-hue($btnPrimaryBackground, 20%) !default;
+
+$btnInfoBackground:                 #5bc0de !default;
+$btnInfoBackgroundHighlight:        #2f96b4 !default;
+
+$btnSuccessBackground:              #62c462 !default;
+$btnSuccessBackgroundHighlight:     #51a351 !default;
+
+$btnWarningBackground:              lighten($orange, 15%) !default;
+$btnWarningBackgroundHighlight:     $orange !default;
+
+$btnDangerBackground:               #ee5f5b !default;
+$btnDangerBackgroundHighlight:      #bd362f !default;
+
+$btnInverseBackground:              #444 !default;
+$btnInverseBackgroundHighlight:     $grayDarker !default;
+
+
+
 // Settings file containing Foundation defaults
 
 // Grid Settings
@@ -79,3 +161,6 @@ $base-size: $baseFontSize $importantModNum;
 
 // Double-stranded Fibonacci Sequence: 8 10 13 16 21 26 34 42 55 68 89 110 144 178 232
 // Bringhurst, Elements of Typographic Style p158
+
+
+$baseLineHeight: 21px;
