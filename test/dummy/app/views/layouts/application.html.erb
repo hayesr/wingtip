@@ -13,8 +13,29 @@
   
 </head>
 <body>
+	
+	<div id="page">
+		
+		<header>
+			<h1 id="site_title">Wingtip</h1>
+		</header>
+		
+		<nav>
+			<div class="container">
+				<%= render 'pages/nav' %>
+			</div>
+		</nav>
 
-<%= yield %>
+		<%= yield %>
+	
+	</div>
+	
+	<footer>
+		<div class="container">
+			<p>Das Foooter</p>
+			<p><%= LiterateRandomizer.sentence %></p>
+		</div>
+	</footer>
 
 </body>
 </html>

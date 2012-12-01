@@ -6,8 +6,20 @@
 @import 'wingtip/mixins';
 @import 'wingtip/normalize';
 
-// Grid and Structure
+// Base
 @import 'wingtip/type';
-@import 'wingtip/grid';
 
-@import 'wingtip/buttons';
+// Grid and Layouts
+@import 'wingtip/layouts/grid';
+//@import 'wingtip/layouts/fullscreen';
+
+// Modules
+@import 'wingtip/modules/buttons';
+@import 'wingtip/modules/navs';
+//@import 'wingtip/modules/navbar';
+
+//@import 'wingtip/modules/article';
+//@import 'wingtip/modules/masthead';
+//@import 'wingtip/modules/menus';
+//@import 'wingtip/modules/sidebar';
+//@import 'wingtip/modules/comment';

@@ -55,6 +55,7 @@ GEM
       railties (>= 3.1.0, < 5.0)
       thor (~> 0.14)
     json (1.7.5)
+    literate_randomizer (0.4.0)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -114,5 +115,6 @@ PLATFORMS
 
 DEPENDENCIES
   jquery-rails
+  literate_randomizer
   sqlite3
   wingtip!

@@ -1,6 +1,18 @@
 
 @import 'wingtip';
 
+body{
+  background-color: $grey6;
+}
+
+#page{
+  background-color: $white;
+}
+
+footer{
+  color: $grey2;
+}
+
 .show-grid{
   .row{
     margin-bottom: 1em;
@@ -13,8 +25,4 @@
       padding: 2em 0;
     }
   }
-}
-
-.sidebar{
-  border-left: 1px solid #eee;
 }

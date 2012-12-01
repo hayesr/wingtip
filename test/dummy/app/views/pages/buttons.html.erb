@@ -1,29 +1,63 @@
-<div class="row">
-  <div class="twelve columns">
-    <p><a href="index.html">&laquo; Back</a></p>
-    <h2>Foundation Button Testing</h2>
-    <hr />
-    <dl class="sub-nav">
-      <dt>Go to:</dt>
-      <dd><a href="#buttons">Buttons</a></dd>
-      <dd><a href="#button-groups">Button Groups</a></dd>
-      <dd><a href="#dropdown-buttons">Dropdown Buttons</a></dd>
-    </dl>
-  </div>
-</div>
 
-<!-- Test Foundation Components Here -->
 <div class="row">
   
     <h3>Buttons</h3>
     
-    <h4 class="subheader">
-      Buttons are a convenient tool when it comes to more traditional actions. To that end, Foundation includes a lot of easy to use button styles that you can customize or override.
-    </h4>
     
-    <p>
-      <a href="#" class="btn">Default</a>
-    </p>
+    
+    <hr>
+    
+    <div class="row">
+      <div class="span3">
+        <p><a href="#" class="btn btn-flat btn-large">Default</a></p>
+        <p><a href="#" class="btn btn-flat">Default</a></p>
+        <p><a href="#" class="btn btn-flat btn-small">Default</a></p>
+      </div>
+      <div class="span3">
+        <p><a href="#" class="btn btn-large">Default</a></p>
+        <p><a href="#" class="btn">Default</a></p>
+        <p><a href="#" class="btn btn-small">Default</a></p>
+      </div>
+      <div class="span3">
+        <p><a href="#" class="btn btn-gloss btn-large">Default</a></p>
+        <p><a href="#" class="btn btn-gloss">Default</a></p>
+        <p><a href="#" class="btn btn-gloss btn-small">Default</a></p>
+      </div>
+      <div class="span3">
+        <p><a href="#" class="btn btn-block btn-large">Default</a></p>
+        <p><a href="#" class="btn btn-block">Default</a></p>
+        <p><a href="#" class="btn btn-block btn-small">Default</a></p>
+      </div>
+    </div>
+    
+    <% %w{ primary info success warning danger inverse }.each do |state| %>
+    
+    <hr>
+    
+    <div class="row">
+      <div class="span3">
+        <p><a href="#" class="btn btn-<%= state %> btn-flat btn-large">Default</a></p>
+        <p><a href="#" class="btn btn-<%= state %> btn-flat">Default</a></p>
+        <p><a href="#" class="btn btn-<%= state %> btn-flat btn-small">Default</a></p>
+      </div>
+      <div class="span3">
+        <p><a href="#" class="btn btn-<%= state %> btn-large">Default</a></p>
+        <p><a href="#" class="btn btn-<%= state %>">Default</a></p>
+        <p><a href="#" class="btn btn-<%= state %> btn-small">Default</a></p>
+      </div>
+      <div class="span3">
+        <p><a href="#" class="btn btn-<%= state %> btn-gloss btn-large">Default</a></p>
+        <p><a href="#" class="btn btn-<%= state %> btn-gloss">Default</a></p>
+        <p><a href="#" class="btn btn-<%= state %> btn-gloss btn-small">Default</a></p>
+      </div>
+      <div class="span3">
+        <p><a href="#" class="btn btn-block btn-<%= state %> btn-large">Default</a></p>
+        <p><a href="#" class="btn btn-block btn-<%= state %>">Default</a></p>
+        <p><a href="#" class="btn btn-block btn-<%= state %> btn-small">Default</a></p>
+      </div>
+    </div>
+    
+    <% end %>
     
   </div>
 </div>

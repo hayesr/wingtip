@@ -1,0 +1,39 @@
+<section class="right_article">
+	
+	<div class="row">
+		<header class="span10 offset2">
+			<h2>The Title Goes Here</h2>	
+		</header>
+	</div>
+	
+	<div class="row">
+		
+		<aside class="span3">
+			This post was written by author
+		</aside>
+		
+		<article class="span9">
+			
+			<% LiterateRandomizer.paragraphs(join: false, paragraphs: 2).each do |p| %>
+			<p><%= p %></p>
+			<% end %>
+			
+			<img src="http://placehold.it/980x606/">
+			
+			<img src="http://placehold.it/980x606/">
+
+			<blockquote>
+			<%= LiterateRandomizer.paragraph %>
+			</blockquote>
+
+			<p><%= LiterateRandomizer.paragraph %></p>
+			
+			
+
+			<footer>
+				<strong>Footer:</strong> Meta info about this article.
+			</footer>
+		</article>
+	</div>
+    
+</section>
